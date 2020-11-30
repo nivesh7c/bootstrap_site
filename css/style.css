@@ -1,0 +1,116 @@
+.navbar-nav
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+    
+}
+.navbar-brand
+{
+  font-weight: bold;
+  font-size: 200%;
+}
+#s2
+{
+  height: 70px;
+  width: 70px;
+}
+.nav-link{
+  font-size: 120%;
+  margin-inline-end: 43px;
+}
+.navbar-light .navbar-nav .nav-link::after
+ {
+  content: '';
+  display: block;
+  width: 0;
+  height: 6px;
+  background :purple;
+  transition: width .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover::after
+{
+  width: 50%;
+  transition: width .3s;
+}
+#nav-btn
+{ 
+  border-radius: 50px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
+{
+  width: 90%;
+}
+header
+{
+  background-image: url("../img/rec.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+header .row .col-md-7
+{    
+  padding: 21vmin 6vmin;
+  padding-bottom: 0vmin;
+}
+header .row .col-md-5 
+{
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img 
+{
+  width: 75%;
+  padding-left: 58px;
+}
+.primary-btn 
+{
+  border-radius: 30px;
+  font-weight: bold;
+}
+.section-1 
+{
+  padding: 0vmin 6vmin;
+  margin-bottom: 55px;
+}
+
+.display-4
+{
+  font-weight: bold;
+  margin-top: 25px;;
+}
+#leader
+{
+  margin-top: 90px;
+}
+.card-deck .card
+{
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  margin-right: 15px;
+  margin-bottom: 0;
+  margin-left: 15px;
+  border: none;
+}
+.card-img-top
+{
+  width: 90%;
+}
+.offset-md-1 {
+  margin-left: 8.333333%;
+  margin-top: 114px;
+}  
+footer
+{
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+footer .column i
+{
+  color:#F6B49A;
+}
+footer .column i + i 
+{
+  padding: 0 0.5em;
+}   
+
+
